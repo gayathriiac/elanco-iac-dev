@@ -158,8 +158,39 @@ ul.menu li a:hover {
   top:72px;
   display:none;
 }
+
+.submenu > ul > li{
+  padding:0.5em!important;
+  margin:0px!important;
+}
+
 .slideshow{
   clear:both;
+}
+.homeMenu{
+  transform: translateX(-25%);
+  overflow:hidden;
+  display:flex;
+}
+.capabilityMenu{
+  transform: translateX(-35%);
+  overflow:hidden;
+  display:flex;
+}
+.governanceMenu{
+  transform: translateX(-50%);
+  overflow:hidden;
+  display:flex;
+}
+.engageMenu{
+ transform: translateX(-50%);
+ overflow:hidden;
+ display:flex;
+}
+.quickLinksMenu{
+  transform: translateX(-65%);
+  overflow:hidden;
+  display:flex;
 }
 .homeMenu{
   transform: translateX(-25%);
